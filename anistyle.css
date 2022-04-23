@@ -1,0 +1,142 @@
+.road1{
+    position:absolute;
+    top: 520px;
+    left: -4000px;
+    animation: road1 10s infinite linear reverse;
+}
+@keyframes road1 {
+    0%{
+        left:-4000px;
+    }
+100%{
+    left: 18px;
+}
+    
+}
+.road2{
+    position:absolute;
+    top: 520px;
+    left: 18pxpx;
+    animation: road2 10s infinite linear reverse;
+}
+@keyframes road2 {
+    0%{
+        left:18px;
+    }
+100%{
+    left:4000px;
+}
+    
+}
+.city1 {
+    position: absolute;
+    top: 282px;
+    left: -100%;
+    width: 100%;
+    animation: city1 10s infinite linear reverse;}
+    @keyframes city1 {
+        0%{
+            left: -100%;
+        }
+        100%{
+            left: 0px;
+        }
+    }
+    .city2 {
+        position: absolute;
+        top: 282px;
+        left: 0px;
+        width: 100%;
+        animation: city2 10s infinite linear reverse;}
+        @keyframes city2 {
+            0%{
+                left: 0px;
+            }
+            100%{
+                left: 100%;
+            }
+        }
+        .car {
+            width: 500px;
+            position: absolute;
+            top: 400px;
+            left:500px;
+        }
+        .wheel01 {
+            width: 90px;
+            position: absolute;
+            top: 515px;
+            left: 542px;
+            animation: wheel01 3s infinite linear;
+        }
+        @keyframes wheel01 {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .wheel02 {
+            width: 90px;
+            position: absolute;
+            top: 515px;
+            left: 850px;
+            animation: wheel02 3s infinite linear;
+        }
+        @keyframes wheel02 {
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .sun{
+           
+                width: 100px;
+                position: absolute;
+                top: 120px;
+                right: 100px;
+                animation: sun 200s infinite linear;
+            }
+        @keyframes sun {
+            0%{
+                right: 100px;
+            }
+            100%{
+                right: 100px;
+            }
+        }
+        .flag {
+            width: 100px;
+            position: absolute;
+            top: 400px;
+            right: 350px;
+        }
+        .text{
+            font-size: 3rem;
+        }
+        .text1{
+            background-color: orange;
+            height: 100%;
+            width: 200px;
+            margin-left: 250px;
+            font-weight: bold;
+        }
+        .text2{
+            
+            height: 100%;
+            width: 200px;
+            margin-left: 450px;
+            margin-top: -55px;
+            font-weight: bold;
+        }
+        .text3{
+            background-color:green;
+            height: 100%;
+            width: 200px;
+            margin-left: 840px;
+            margin-top: -55px;
+            font-weight: bold;
+        }
