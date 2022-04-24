@@ -1,0 +1,164 @@
+body{
+    background-image: url(./sahara-desert.jpg) ;
+    
+    display: block;
+    position: relative;
+}
+
+.logo{
+   margin-left: 100px;
+   margin-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu{
+    display: block;
+    position: relative;
+    margin-left: 850px;
+    margin-top: -50px;
+}
+.home{
+   font-weight: bold;
+    font-size: 0.9rem;
+    
+    
+}
+.region{
+   font-size: 0.9rem;
+    font-weight: bold;
+    margin: 60px;
+}
+.about{
+    font-size: 0.9rem;
+    font-weight: bold;
+
+}
+.mlogo{
+    margin-left: 320px;
+    margin-top: -21px;
+}
+.container{
+    display: block;
+    position: relative;
+}
+.sahara{
+    display: block ;
+    position: relative;
+    color: white;
+    margin-top: 170px;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-left: 90px;
+    
+}
+.text1{
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    padding-top:5px;
+}
+.button{
+    margin-left: 120px;
+    margin-top: 30px;
+    height: 22px;
+    width: 130px;
+    font-weight: bold;
+    padding-top: 5px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+.items{
+    width: 100;
+    display: flex;
+    position:static;
+    color: white;
+    font-size: 0.7rem;
+   
+}
+
+
+.item1{
+    display: block;
+    background-image: url(./pic-1.jpg);
+   background-size:cover;
+    height: 220px;
+    width: 230px;
+    margin-left: 700px;
+    margin-top: -320px;
+    border-radius: 10px;
+    
+}
+.item1:hover{
+    transition:transform 0.5s ease-out
+}
+.item2{
+    background-image: url(./pic-2.jpg);
+    display: block;
+    background-size: cover;
+    height: 220px;
+    width: 230px;
+    margin-left: 50px;
+    margin-top: -320px;
+    border-radius: 10px;
+}
+
+.item3{
+    background-image: url(./pic3.gif);
+    display: block;
+    background-size: cover;
+    height: 220px;
+    width: 230px;
+   margin-left: -500px;
+    margin-top: -50px;
+    border-radius: 10px;
+
+}
+.item4{
+    background-image: url(./pic4.jpg);
+    background-size: cover;
+    height: 220px;
+    width: 230px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: -45px;
+}
+
+@media(max-width:856px){
+    .nav{width: 85%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        
+    }
+    }
+    @media (max-width: 856px){
+    .sahara {
+        box-sizing: border-box;
+        display: inline-block;
+        flex-flow: column;
+        padding: 0px 30px;
+        margin: 0px 20px;
+        justify-content: center;
+    }
+
+}
+@media (max-width: 856px){
+.items {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 550px;
+    grid-template-rows: 230px 230px 230px 230px;
+    grid-gap: 30px 50px;
+    padding-right: 0px;
+    padding-top: 20px;
+}}
